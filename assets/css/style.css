@@ -1,0 +1,196 @@
+body{
+    background: radial-gradient(black, black, teal);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color: turquoise;
+}
+
+.navbar{
+    background-color: black;
+    
+}
+
+.header{
+    margin-top: 5vh;
+    text-shadow: 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise;
+}
+ 
+.navbar-brand{
+    color: turquoise;
+}
+
+.navbar-brand:hover{
+    color: turquoise;
+    transform: scale(1.2);
+    text-shadow: 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise;
+}
+
+.nav-link{
+    color: turquoise;
+}
+
+.nav-link:hover{
+    color: turquoise;
+    transform: scale(1.2);
+    text-shadow: 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.dropdown-item{
+    color: turquoise;
+}
+
+.dropdown-item:hover{
+    background-color: black;
+    color: turquoise;
+    transform: scale(1.2);
+    text-shadow: 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise;
+}
+
+.form-control{
+    background-color: black;
+}
+
+.image{
+    height: 50vh;
+    width: 50vw;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+.slide{
+    margin: 5vh;
+}
+
+.mystuff{
+    margin: 4vh;
+}
+
+.footer{
+    position: relative;
+    margin-bottom: -50px;
+    /* negative value of footer height */
+    height: 12vh;
+    background-color: black;
+}
+
+.copy{
+    margin-top: 5px;
+}
+
+.contact{
+    max-width:420px; 
+    margin:50px auto; 
+}
+.input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid teal;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+ .input:focus { 
+      border:2px solid #CC4949; 
+    }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+
+  .submit{
+      background-color: black;
+      color: turquoise;
+      transition-duration: 0.5s;
+  }
+
+  .submit:hover{
+      background-color: turquoise;
+      color: black;
+      transition-duration: 0.5s;
+      
+  }
+
+.contactlink{
+    color: goldenrod;
+}
+
+.contactlink:hover{
+    color: goldenrod;
+    text-shadow: 0 0 3px goldenrod, 0 0 3px goldenrod, 0 0 3px goldenrod;
+}
+
+/*portfolio css */
+
+.portimage{
+   height: 60vh;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .portimage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .portimage {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: black;
+    color: turquoise;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-shadow: 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise;
+    border: solid 1px turquoise;
+    box-shadow: 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise;
+  }
+
+  .portcontainer{
+      display: flex;
+      height: 70vh;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+
+  }
+
