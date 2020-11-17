@@ -26,32 +26,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Portfolio
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">My interests</a>
-                        <a class="dropdown-item" href="#">Completed Projects</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Projects in the works</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
                 </li>
 
             </ul>
 
         </div>
     </nav>
-    <h1 class="header">Hi, I'm JP Soler</h1>
+    <h1 class="header" id="about">Hi, I'm JP Soler</h1>
     <h4 class="intro">Web Designer and eventually a Full Stack Developer</h4>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -87,6 +79,67 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+    <h1 class="header" id="portfolio">My Projects</h1>
+
+
+
+
+
+
+    <div class="portcontainer">
+        <div class="container">
+            <img src="/assets/images/mysticalcode.jpg" alt="Avatar" class="portimage" style="width:100%">
+            <div class="middle">
+                <div class="text">Future Project 1</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="/assets/images/neutralcode.jpg" alt="Avatar" class="portimage" style="width:100%">
+            <div class="middle">
+                <div class="text">Future Project 2</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="/assets/images/maliciouscode.jpg" alt="Avatar" class="portimage" style="width:100%">
+            <div class="middle">
+                <div class="text">Future Project 3</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="/assets/images/matrix.jpg" alt="Avatar" class="portimage" style="width:100%">
+            <div class="middle">
+                <div class="text">Future Project 4</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="assets/images/coding.jpg" alt="Avatar" class="portimage" style="width:100%">
+            <div class="middle">
+                <div class="text">Future Project 5</div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="header" id="contact">Contact Me</h1>
+
+    <div class="contactinfo">
+        <br>
+        <p>Chicago, US</p>
+        <br>
+        <a href="tel:4243240153" class="contactlink">Call me at 424-324-0153</a>
+        <br>
+        <a href="mailto:j.p.soler3087@gmail.com" class="contactlink">Email: JP Soler</a>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+
+    <form class="contact">
+        <input name="name" type="text" class="input" placeholder="Name" />
+        <input name="email" type="text" class="input" placeholder="Email" />
+        <textarea name="text" class="input" placeholder="Comment"></textarea>
+        <input class="submit" type="submit" value="SUBMIT" />
+    </form>
+
 
     <div class="footer">
         <h3 class="copy">Copyright &COPY; JP Soler &Omega;</h3>

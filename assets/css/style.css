@@ -1,14 +1,16 @@
 body{
     background: radial-gradient(black, black, teal);
-    background-size: cover;
-    height: 100vh;
+    background-size: inherit;
+    height: 250vh;
     width: 100vw;
     text-align: center;
     color: turquoise;
+    
 }
 
 .navbar{
     background-color: black;
+    color: turquoise;
     
 }
 
@@ -32,21 +34,6 @@ body{
 }
 
 .nav-link:hover{
-    color: turquoise;
-    transform: scale(1.2);
-    text-shadow: 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise;
-}
-
-.dropdown-menu{
-    background-color: black;
-}
-
-.dropdown-item{
-    color: turquoise;
-}
-
-.dropdown-item:hover{
-    background-color: black;
     color: turquoise;
     transform: scale(1.2);
     text-shadow: 0 0 3px turquoise, 0 0 3px turquoise, 0 0 3px turquoise;
@@ -194,3 +181,6 @@ body{
 
   }
 
+.navbar-toggler{
+    background-color: teal
+}
