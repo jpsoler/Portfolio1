@@ -12,6 +12,7 @@ body{
     background-color: black;
     color: turquoise;
     
+    
 }
 
 .header{
@@ -54,9 +55,13 @@ body{
     margin: 5vh;
 }
 
+
+
 .mystuff{
     margin: 4vh;
 }
+
+/*footer stuff*/
 
 .footer{
     position: relative;
@@ -69,6 +74,8 @@ body{
 .copy{
     margin-top: 5px;
 }
+
+/*contact stuff*/
 
 .contact{
     max-width:420px; 
